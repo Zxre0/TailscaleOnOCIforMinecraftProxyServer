@@ -10,11 +10,11 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
    and create an account
 2. Go over to Instances and create one
 3. AMD 1 core 1 gb of ram worked fine for this
-4. MAKE SURE TO CHOOSE UBUNTU 22.04 AS THE IMAGE 
+4. MAKE SURE IT SAYS ALWAYS FREE ELIGIBLE SO ITS FREE TO HOST
+5. MAKE SURE TO CHOOSE UBUNTU 22.04 AS THE IMAGE 
 
    # SSH
      [How to SSH](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/log-vm-using-ssh.html)
-
 # Setting up Tailscale 
   Go to [Tailscale's Website](https://tailscale.com/) and create an account
 
