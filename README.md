@@ -16,7 +16,7 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
  # SSH
    [How to SSH](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/log-vm-using-ssh.html)
 
-   # Port Forwarding
+ # Port Forwarding
    On the VM you just made, click on the instance, scroll down and click on the VCN
 
    <img width="2490" height="1071" alt="image" src="https://github.com/user-attachments/assets/26db0b49-6e3c-4925-b48e-d289ce984b8f" />
@@ -75,7 +75,7 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
 
    now run tailscale status and their should be no more warning about exit nodes
    
-  # accept routes
+  # Accept Routes
       sudo tailscale up --accept-routes --advertise-exit-node
    run this command if you get a error about accept routes
 
@@ -109,7 +109,7 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
    WOOO GODO JOB IF EVERYTHING WENT WELL YOU NOW HAVE YOUR OWN VPN
 
 
- # Minecraft setup
+ # Minecraft Setup
 
    ### YOU CAN SKIP THIS STEP IF YOU WANT PEOPLE TO DOWNLOAD TAILSCALE TO JOIN
 
