@@ -5,6 +5,8 @@ For this tutorial, I'm assuming you already have a self-hosted Minecraft server 
 
 Used for Self-Hosted Community servers that you don't wanna hand your IP address out
 
+Voice Chat and any udp services are supported and are fully working (Only Simple Voice Chat tested so far) (Tutorial Coming Soon)
+
 # Setup Oracle Cloud Server
 1. [Go to Oracle's Cloud Infrastructure website](https://www.oracle.com/cloud/)
    and create an account
