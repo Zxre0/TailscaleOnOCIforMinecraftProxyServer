@@ -41,6 +41,19 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
    <img width="1804" height="581" alt="image" src="https://github.com/user-attachments/assets/964635d1-6668-4607-aee8-bd97a0d4444c" />
 
 
+   <img width="1804" height="581" alt="image" src="https://github.com/user-attachments/assets/964635d1-6668-4607-aee8-bd97a0d4444c" />
+
+   while you are still on the dashboard click the 3 dots again and click "edit route settings"
+   
+   <img width="1772" height="643" alt="image" src="https://github.com/user-attachments/assets/f33fbde7-4b28-451b-96fd-3d5cc6a12e8c" />
+
+   click "use as exit node"
+
+   <img width="623" height="587" alt="image" src="https://github.com/user-attachments/assets/739254ba-39a1-41ad-b70e-d931716f3c7d" />
+
+   
+
+
 
 
   # Tailscale Local PC install
