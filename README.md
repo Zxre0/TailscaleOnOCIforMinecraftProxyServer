@@ -52,9 +52,14 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
    <img width="623" height="587" alt="image" src="https://github.com/user-attachments/assets/739254ba-39a1-41ad-b70e-d931716f3c7d" />
 
    
+   # IP Forwarding
+   Do sudo nano /etc/sysctl.conf and it will bring up sysctl.conf in a text editor and uncomment (remove the #) from "net.ipv4.ip_forward=1"
+
+   <img width="2539" height="1351" alt="image" src="https://github.com/user-attachments/assets/32c9aa3d-87fb-40ca-9c97-134630e259c1" />
 
 
-
+   
+   
 
   # Tailscale Local PC install
    [Install Tailscale on your local PC](https://tailscale.com/download) and login
