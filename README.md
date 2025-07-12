@@ -56,7 +56,6 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
    <img width="1804" height="581" alt="image" src="https://github.com/user-attachments/assets/964635d1-6668-4607-aee8-bd97a0d4444c" />
 
 
-   <img width="1804" height="581" alt="image" src="https://github.com/user-attachments/assets/964635d1-6668-4607-aee8-bd97a0d4444c" />
 
    while you are still on the dashboard click the 3 dots again and click "edit route settings"
    
