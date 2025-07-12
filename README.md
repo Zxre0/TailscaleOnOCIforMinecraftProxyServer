@@ -124,7 +124,7 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
 
    now people that dont have the vpn installed can now play on your minecraft server
 
-   # Voice Chat
+   # Voice Chat (Plasmo Voice,Simple Voice Chat)
 
    Coming Soon
 
