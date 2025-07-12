@@ -9,7 +9,7 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
 1. [Go to Oracle's Cloud Infrastructure website](https://www.oracle.com/cloud/)
    and create an account
 2. Go over to Instances and create one
-3. AMD 1 core 1 gb of ram worked fine for this
+3. AMD 1 core 1 gb of ram worked fine for this (if you can get a ampere based thats even better because you can host ur entire server on it)
 4. MAKE SURE IT SAYS ALWAYS FREE ELIGIBLE SO ITS FREE TO HOST
 5. MAKE SURE TO CHOOSE UBUNTU 22.04 AS THE IMAGE 
 
