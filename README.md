@@ -13,8 +13,23 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
 4. MAKE SURE IT SAYS ALWAYS FREE ELIGIBLE SO ITS FREE TO HOST
 5. MAKE SURE TO CHOOSE UBUNTU 22.04 AS THE IMAGE 
 
-   # SSH
-     [How to SSH](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/log-vm-using-ssh.html)
+ # SSH
+   [How to SSH](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/log-vm-using-ssh.html)
+
+   # Port Forwarding
+   On the VM you just made, click on the instance, scroll down and click on the VCN
+
+   <img width="2490" height="1071" alt="image" src="https://github.com/user-attachments/assets/26db0b49-6e3c-4925-b48e-d289ce984b8f" />
+
+   Then go over to the security tab and make an 3 ingress rule
+   
+
+   port fowarding using these ports and options (the voice chat port is optional it's if you are using voice chat)
+
+   
+   <img width="2052" height="176" alt="image" src="https://github.com/user-attachments/assets/91fc52b5-e24f-42f5-bde2-028e33f29a28" />
+
+   
 # Setting up Tailscale 
   Go to [Tailscale's Website](https://tailscale.com/) and create an account
 
@@ -58,8 +73,18 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
    <img width="2539" height="1351" alt="image" src="https://github.com/user-attachments/assets/32c9aa3d-87fb-40ca-9c97-134630e259c1" />
 
 
+   now run tailscale status and their should be no more warning about exit nodes
    
-   
+  # accept routes
+      sudo tailscale up --accept-routes --advertise-exit-node
+   run this command if you get a error about accept routes
+
+
+   ### MAKE SURE TO RESTART THE VM AFTER ALL OF THIS
+      
+
+
+
 
   # Tailscale Local PC install
    [Install Tailscale on your local PC](https://tailscale.com/download) and login
