@@ -34,8 +34,14 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
    Make sure the setting look like this and click generate install script
    <img width="650" height="1051" alt="image" src="https://github.com/user-attachments/assets/82cd555e-4173-4f17-ad11-a22e51ad34a4" />
 
+   Once you get the generated install script, throw that into your linux terminal and let it install
 
-  Once you get the generated install script, throw that into your linux terminal and let it install
+   Once it shows up in machines, click "disable key expiry"
+
+   <img width="1804" height="581" alt="image" src="https://github.com/user-attachments/assets/964635d1-6668-4607-aee8-bd97a0d4444c" />
+
+
+
 
   # Tailscale Local PC install
    [Install Tailscale on your local PC](https://tailscale.com/download) and login
