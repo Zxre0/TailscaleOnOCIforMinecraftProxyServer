@@ -86,7 +86,7 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
 
 
 
-  # Tailscale Local PC install
+# Tailscale Local PC install
    [Install Tailscale on your local PC](https://tailscale.com/download) and login
 
    Once installed go to CMD and ping the name of your VM
@@ -108,4 +108,23 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
 
    WOOO GODO JOB IF EVERYTHING WENT WELL YOU NOW HAVE YOUR OWN VPN
 
+
+ # Minecraft setup
+
+   ### YOU CAN SKIP THIS STEP IF YOU WANT PEOPLE TO DOWNLOAD TAILSCALE TO JOIN
+
+   Instead of using Nginx or Velocity we are going to use iptables which comes with linux
+
+   first connect to your own vpn then run tailscale ip -4 write that ip down somewhere 
+
+   after that run this command on your server
+   
+      sudo iptables -t nat -A PREROUTING -p tcp --dport 25565 -j DNAT --to-destination YOUR_TAILSCALE_LOCAL_PC_IP_ADDRESS:25565
+      sudo iptables -t nat -A POSTROUTING -p tcp -d YOUR_TAILSCALE_LOCAL_PC_IP_ADDRESS --dport 25565 -j MASQUERADE
+
+   now people that dont have the vpn installed can now play on your minecraft server
+
+   # Voice Chat
+
+   Coming Soon
 
