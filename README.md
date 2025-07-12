@@ -19,6 +19,7 @@ Used for Self-Hosted Community servers that you don't wanna hand your IP address
   Go to [Tailscale's Website](https://tailscale.com/) and create an account
 
   # Tailscale Server Install 
+  
    When you get to Tailscale's Quick Install, Skip the instructions
    <img width="936" height="747" alt="image" src="https://github.com/user-attachments/assets/1c2ecc0d-60ea-4d20-91a6-f504e214b609" />
 
